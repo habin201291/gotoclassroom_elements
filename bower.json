@@ -1,0 +1,22 @@
+{
+  "name": "gotoclassroom-elements",
+  "version": "0.0.0",
+  "authors": [
+    "Gotoclassroom <support@gotoclassroom.com>"
+  ],
+  "description": "Element providing solution to no problem in particular.",
+  "keywords": "seed, polymer, web-components",
+  "main": "gotoclassroom-elements.html",
+  "license": "MIT",
+  "homepage": "https://github.com/afterclassroom/gotoclassroom-elements/",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests",
+    ".bowerrc"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#>=0.4.1 <1.0.0",
+    "polymer-test-tools": "Polymer/polymer-test-tools#>=0.4.1 <1.0.0"
+  }
+}
