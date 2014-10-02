@@ -128,7 +128,7 @@ function Classroom (domain) {
             'search': 'messages/search'
         },
         'users' : {
-            'current_user': 'users/me',
+            'me': 'users/me',
             'create_user': 'users/create_user',
             'create_teacher': 'users/create_teacher',
             'create_student': 'users/create_student',
