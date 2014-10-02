@@ -8,7 +8,7 @@
   "keywords": "seed, polymer, web-components",
   "main": "gotoclassroom-elements.html",
   "license": "MIT",
-  "homepage": "https://github.com/afterclassroom/gotoclassroom-elements/",
+  "homepage": "https://github.com/afterclassroom/gotoclassroom_elements/",
   "ignore": [
     "**/.*",
     "test",
