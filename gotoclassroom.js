@@ -1,6 +1,6 @@
-function Classroom (domain) {
+function Classroom (domain, api_version) {
     this.domain = domain;
-    this.api_version = 'api/v1';
+    this.api_version = api_version;
     this.access_token = null;
     this.current_user = null;
     this.api = {
@@ -186,5 +186,5 @@ Classroom.prototype.getAPI = function(str, id) {
     if (id && typeof id != 'undefined') {
         sublink = sublink.replace('{id}', id);
     }
-    return this.domain + '/' + this.api_version + '/' + sublink;
+    return this.domain + '/api/' + this.api_version + '/' + sublink;
 };
