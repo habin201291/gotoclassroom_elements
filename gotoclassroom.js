@@ -1,6 +1,7 @@
-function Classroom (domain, api_version) {
-    this.domain = domain;
+function Classroom (api_domain, api_version, dashboard_domain) {
+    this.api_domain = api_domain;
     this.api_version = api_version;
+    this.dashboard_domain = dashboard_domain;
     this.access_token = null;
     this.current_user = null;
     this.api = {
@@ -139,7 +140,7 @@ function Classroom (domain, api_version) {
             'setting_teacher_email_notifications': 'users/setting_teacher_email_notification',
             'setting_student_email_notifications': 'users/setting_student_email_notification',
             'setting_parent_email_notifications': 'users/setting_parent_email_notification',
-            'custion_domain': 'users/custion_domain',
+            'custion_api_domain': 'users/custion_api_domain',
             'search_user_and_classroom': 'users/search',
             'my_classrooms': 'users/my_classrooms',
             'my_yearbooks': 'users/my_yearbooks',
@@ -186,5 +187,5 @@ Classroom.prototype.getAPI = function(str, id) {
     if (id && typeof id != 'undefined') {
         sublink = sublink.replace('{id}', id);
     }
-    return this.domain + '/api/' + this.api_version + '/' + sublink;
+    return this.api_domain + '/api/' + this.api_version + '/' + sublink;
 };
