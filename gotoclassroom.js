@@ -152,7 +152,9 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'activities_student_with_teacher': 'users/activities_student_with_teacher',
             'watch_list_questions': 'users/watch_list_questions',
             'my_questions': 'users/my_questions',
-            'summary': 'users/summary'
+            'summary': 'users/summary',
+            'quiz_unfinish_with_classroom': 'users/quiz_unfinish_with_classroom',
+            'drop_off_unfinish_with_classroom': 'users/drop_off_unfinish_with_classroom'
         },
         'themes' : {
             'create': 'themes',
