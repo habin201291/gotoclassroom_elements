@@ -100,6 +100,7 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'create': 'quizzes',
             'add_question': 'quizzes/question',
             'update_question': 'quizzes/question',
+            'delete_question': 'quizzes/{id}/delete_question',
             'file_for_question': 'quizzes/file',
             'list_all_draf': 'quizzes/draf',
             'publish': 'quizzes/publish',
