@@ -114,7 +114,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'create_comment': 'quizzes/{id}/create_comment',
             'update_comment': 'quizzes/update_comment',
             'delete_comment': 'quizzes/delete_comment',
-            'conversation': 'quizzes/{id}/conversation'
+            'conversation': 'quizzes/{id}/conversation',
+            'start_quizz': 'quizzes/start_quizz'
         },
         'messages' : {
             'send': 'messages/send',
