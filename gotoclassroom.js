@@ -102,7 +102,7 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'update_question': 'quizzes/question',
             'delete_question': 'quizzes/{id}/delete_question',
             'file_for_question': 'quizzes/file',
-            'list_all_draf': 'quizzes/draf',
+            'list_all_draft': 'quizzes/draft',
             'publish': 'quizzes/publish',
             'update': 'quizzes/{id}',
             'delete': 'quizzes/{id}',
