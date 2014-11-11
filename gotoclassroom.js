@@ -34,7 +34,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'remove_parent': 'classrooms/{id}/remove_parent',
             'invite_student': 'classrooms/{id}/invite_student',
             'invite_parent': 'classrooms/{id}/invite_parent',
-            'convert_to_yearbook': 'classrooms/{id}/convert_to_yearbook'
+            'convert_to_yearbook': 'classrooms/{id}/convert_to_yearbook',
+            'tags': 'classrooms/{id}/tags'
         },
         'discussions' : {
             'add_question': 'discussions',
@@ -67,7 +68,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'create_comment': 'assignments/{id}/create_comment',
             'update_comment': 'assignments/update_comment',
             'delete_comment': 'assignments/delete_comment',
-            'conversation': 'assignments/{id}/conversation'
+            'conversation': 'assignments/{id}/conversation',
+            'create_from_library': 'assignments/{id}'
         },
         'events' : {
             'create': 'events',
