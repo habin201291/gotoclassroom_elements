@@ -69,7 +69,7 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'update_comment': 'assignments/update_comment',
             'delete_comment': 'assignments/delete_comment',
             'conversation': 'assignments/{id}/conversation',
-            'create_from_library': 'assignments/{id}'
+            'create_from_library': 'assignments/from_library'
         },
         'events' : {
             'create': 'events',
