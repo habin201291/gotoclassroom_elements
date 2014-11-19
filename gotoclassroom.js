@@ -35,7 +35,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'invite_student': 'classrooms/{id}/invite_student',
             'invite_parent': 'classrooms/{id}/invite_parent',
             'convert_to_yearbook': 'classrooms/{id}/convert_to_yearbook',
-            'tags': 'classrooms/{id}/tags'
+            'tags': 'classrooms/{id}/tags',
+            'gradebook': 'classrooms/{id}/gradebook'
         },
         'discussions' : {
             'add_question': 'discussions',
