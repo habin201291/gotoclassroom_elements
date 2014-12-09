@@ -4,6 +4,7 @@ function Classroom (api_domain, api_version, dashboard_domain) {
     this.dashboard_domain = dashboard_domain;
     this.access_token = null;
     this.current_user = null;
+    this.user_profile = null;
     this.api = {
         'attendances': {
             'list': 'attendances',
