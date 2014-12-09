@@ -35,7 +35,9 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'remove_parent': 'classrooms/{id}/remove_parent',
             'invite_student': 'classrooms/{id}/invite_student',
             'invite_parent': 'classrooms/{id}/invite_parent',
-            'convert_to_yearbook': 'classrooms/{id}/convert_to_yearbook'
+            'convert_to_yearbook': 'classrooms/{id}/convert_to_yearbook',
+            'tags': 'classrooms/{id}/tags',
+            'gradebook': 'classrooms/{id}/gradebook'
         },
         'discussions' : {
             'add_question': 'discussions',
@@ -68,7 +70,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'create_comment': 'assignments/{id}/create_comment',
             'update_comment': 'assignments/update_comment',
             'delete_comment': 'assignments/delete_comment',
-            'conversation': 'assignments/{id}/conversation'
+            'conversation': 'assignments/{id}/conversation',
+            'create_from_library': 'assignments/from_library'
         },
         'events' : {
             'create': 'events',
@@ -101,8 +104,9 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'create': 'quizzes',
             'add_question': 'quizzes/question',
             'update_question': 'quizzes/question',
+            'delete_question': 'quizzes/{id}/delete_question',
             'file_for_question': 'quizzes/file',
-            'list_all_draf': 'quizzes/draf',
+            'list_all_draft': 'quizzes/draft',
             'publish': 'quizzes/publish',
             'update': 'quizzes/{id}',
             'delete': 'quizzes/{id}',
@@ -114,7 +118,12 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'create_comment': 'quizzes/{id}/create_comment',
             'update_comment': 'quizzes/update_comment',
             'delete_comment': 'quizzes/delete_comment',
-            'conversation': 'quizzes/{id}/conversation'
+            'conversation': 'quizzes/{id}/conversation',
+            'start_quizz': 'quizzes/start_quizz',
+            'make_library': 'quizzes/make_library',
+            'preview': 'quizzes/preview',
+            'from_library': 'quizzes/from_library',
+            'library': 'quizzes/library'
         },
         'messages' : {
             'send': 'messages/send',
