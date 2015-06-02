@@ -190,6 +190,23 @@ function Classroom (api_domain, api_version, dashboard_domain) {
         },
         'tags' : {
             'return_list_post_tags': 'tags/get_tag'
+        },
+        'lessons' : {
+            'create_category': 'lessons/create_category',
+            'update_category': 'lessons/update_category',
+            'delete_category': 'lessons/delete_category',
+            'create': 'lessons/create',
+            'show': 'lessons/{id}',
+            'update': 'lessons/{id}',
+            'delete': 'lessons/{id}',
+            'like': 'lessons/{id}/like',
+            'unlike': 'lessons/{id}/unlike',
+            'create_comment': 'lessons/{id}/create_comment',
+            'update_comment': 'lessons/update_comment',
+            'delete_comment': 'lessons/delete_comment',
+            'like_comment': 'lessons/like_comment',
+            'unlike_comment': 'lessons/unlike_comment'
+            
         }
     };
 }
