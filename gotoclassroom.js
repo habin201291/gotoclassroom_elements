@@ -23,6 +23,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'assignments': 'classrooms/{id}/assignments',
             'events': 'classrooms/{id}/events',
             'quizzes': 'classrooms/{id}/quizzes',
+            'lesson_categories': 'classrooms/{id}/lesson_categories',
+            'lessons': 'classrooms/{id}/lessons',
             'students': 'classrooms/{id}/students',
             'parents': 'classrooms/{id}/parents',
             'add_student': 'classrooms/add_student',
@@ -190,6 +192,26 @@ function Classroom (api_domain, api_version, dashboard_domain) {
         },
         'tags' : {
             'return_list_post_tags': 'tags/get_tag'
+        },
+        'lessons' : {
+            'create_category': 'lessons/create_category',
+            'update_category': 'lessons/update_category',
+            'delete_category': 'lessons/delete_category',
+            'create': 'lessons/create',
+            'show': 'lessons/{id}',
+            'update': 'lessons/{id}',
+            'delete': 'lessons/{id}',
+            'upload_image': 'lessons/{id}/upload_image',
+            'upload_file': 'lessons/{id}/upload_file',
+            'delete_image': 'lessons/{id}/delete_image',
+            'delete_file': 'lessons/{id}/delete_file',
+            'like': 'lessons/{id}/like',
+            'unlike': 'lessons/{id}/unlike',
+            'create_comment': 'lessons/{id}/create_comment',
+            'update_comment': 'lessons/update_comment',
+            'delete_comment': 'lessons/delete_comment',
+            'like_comment': 'lessons/like_comment',
+            'unlike_comment': 'lessons/unlike_comment'
         }
     };
 }
