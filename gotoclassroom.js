@@ -39,7 +39,8 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'invite_parent': 'classrooms/{id}/invite_parent',
             'convert_to_yearbook': 'classrooms/{id}/convert_to_yearbook',
             'tags': 'classrooms/{id}/tags',
-            'gradebook': 'classrooms/{id}/gradebook'
+            'gradebook': 'classrooms/{id}/gradebook',
+            'course_outlines': 'classrooms/{id}/course_outlines'
         },
         'discussions' : {
             'add_question': 'discussions',
@@ -215,6 +216,25 @@ function Classroom (api_domain, api_version, dashboard_domain) {
             'delete_comment': 'lessons/delete_comment',
             'like_comment': 'lessons/like_comment',
             'unlike_comment': 'lessons/unlike_comment'
+        },
+        'course_outlines' : {
+            'create': 'course_outlines',
+            'upload_file': 'course_outlines/upload_file',
+            'create_textbook': 'course_outlines/{id}/create_textbook',
+            'create_course_schedule': 'course_outlines/{id}/create_course_schedule',
+            'create_evaluation': 'course_outlines/{id}/create_evaluation',
+            'show': 'course_outlines/{id}',
+            'update': 'course_outlines/{id}',
+            'publish': 'course_outlines/publish/{id}',
+            'update_file': 'course_outlines/{id}/update_file',
+            'update_textbook': 'course_outlines/update_textbook',
+            'update_course_schedule': 'course_outlines/update_course_schedule',
+            'update_evaluation': 'course_outlines/update_evaluation',
+            'delete': 'course_outlines/{id}',
+            'delete_textbook':'course_outlines/delete_textbook',
+            'delete_course_schedule': 'course_outlines/delete_course_schedule',
+            'delete_evaluation': 'course_outlines/delete_evaluation',
+            'delete_file': 'course_outlines/{id}/delete_file'
         }
     };
 }
